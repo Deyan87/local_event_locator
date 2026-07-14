@@ -46,6 +46,10 @@
     grid-template-columns: minmax(280px, 380px) 1fr;
     height: calc(100vh - 84px);
   }
+  @media (max-width: 800px) {
+    .layout { grid-template-columns: 1fr; height: auto; }
+    #map { height: 60vh; }
+  }
   #list {
     overflow-y: auto;
     background: var(--panel);
@@ -178,10 +182,6 @@
     opacity: 0.65;
   }
   #map { height: 100%; }
-  @media (max-width: 800px) {
-    .layout { grid-template-columns: 1fr; height: auto; }
-    #map { height: 60vh; }
-  }
   .leaflet-popup-content h3 {
     margin: 0 0 0.3rem;
     font-size: 0.95rem;
