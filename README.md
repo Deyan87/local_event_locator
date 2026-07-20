@@ -20,10 +20,9 @@ I dati sono tratti da:
 ## Struttura del progetto
 
 ```
-index.html      pagina principale (HTML + CSS + JS, tutto in un unico file)
-index copy.html copia di lavoro/backup di index.html
-LICENSE          licenza Unlicense (pubblico dominio)
-README.md        questo file
+index.html  pagina principale (HTML + CSS + JS, tutto in un unico file)
+LICENSE     licenza Unlicense (pubblico dominio)
+README.md   questo file
 ```
 
 ## Tecnologie utilizzate
